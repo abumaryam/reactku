@@ -76,7 +76,7 @@ Copy all your files to your project folder and then,
 $ cd my-project
 
 # install app's dependencies
-$ npm install
+$ npm install --legacy-peer-deps
 ```
 
 ## Create React App

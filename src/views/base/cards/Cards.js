@@ -11,7 +11,7 @@ import {
   CFade,
   CSwitch,
   CLink
-} from  '@coreui/react'
+} from '@coreui/react'
 import CIcon from '@coreui/icons-react'
 import { DocsLink } from 'src/reusable'
 
@@ -27,7 +27,7 @@ const Cards = () => {
           <CCard>
             <CCardHeader>
               Card title
-              <DocsLink name="CCard"/>
+              <DocsLink name="CCard" />
             </CCardHeader>
             <CCardBody>
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
@@ -51,7 +51,7 @@ const Cards = () => {
             <CCardHeader>
               Card with icon
               <div className="card-header-actions">
-                <CIcon name="cil-check" className="float-right"/>
+                <CIcon name="cil-check" className="float-right" />
               </div>
             </CCardHeader>
             <CCardBody>
@@ -81,7 +81,7 @@ const Cards = () => {
             <CCardHeader>
               Card with label
               <div className="card-header-actions">
-                <CBadge color="success" className="float-right">Success</CBadge>
+                <CBadge color="success" className="float-right">Berhasil;</CBadge>
               </div>
             </CCardHeader>
             <CCardBody>
@@ -389,7 +389,7 @@ const Cards = () => {
                     <CIcon name="cil-settings" />
                   </CLink>
                   <CLink className="card-header-action" onClick={() => setCollapsed(!collapsed)}>
-                    <CIcon name={collapsed ? 'cil-chevron-bottom':'cil-chevron-top'} />
+                    <CIcon name={collapsed ? 'cil-chevron-bottom' : 'cil-chevron-top'} />
                   </CLink>
                   <CLink className="card-header-action" onClick={() => setShowCard(false)}>
                     <CIcon name="cil-x-circle" />
